@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class=" w-screen h-screen bg-yellow-300 flex items-center justify-center ">
+      <section class="relative group">
+        <div class="relative z-20 w-[350px] bg-white flex flex-col  p-5 rounded-xl border-2 border-black/70 gap-3">
+          <img class="rounded-xl" src="assets/images/illustration-article.svg" alt="" />
+          <button class="bg-yellow-300 w-fit px-2 py-1 text-sm font-semibold rounded-sm ">Learning</button>
+  
+          <p class="text-sm">Published 21 Dec 2023</p>
+          <p class="font-bold text-xl hover:text-yellow-300">HTML & CSS foundations</p>
+          <p class="text-sm text-neutral-500">
+            These languages are the backbone of every website, defining structure,
+            content, and presentation.
+          </p>
+  
+          <div class="flex items-center gap-2">
+            <img class="w-6" src="/assets/images/image-avatar.webp" alt="" />
+            <p class="text-sm font-bold">Greg Hooper</p>
+          </div>
+        </div>
+        <div class="absolute group-hover:top-4 group-hover:left-4 transition-all bg-black w-[350px] h-full top-2 left-2 z-10 rounded-xl">
+
+        </div>
+      </section>
+      
+    </div>
+  </body>
+</html>
